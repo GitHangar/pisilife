@@ -5,15 +5,15 @@
         <Name>teamviewer</Name> 
         <Homepage>http://www.teamviewer.com/</Homepage> 
         <Packager>
-            <Name>Antoon Tolboom</Name> 
-            <Email>atolboo@gmail.com</Email> 
+            <Name>Kemal Oktay Aktoğan</Name> 
+            <Email>oktayaktogan@hotmail.com</Email> 
         </Packager>
         <License>as-is</License> 
         <Icon>qnext</Icon>
         <IsA>app:gui</IsA> 
         <Summary>User friendly remote control application</Summary>
         <Description>TeamViewer is a computer software for remote control, desktop sharing, and file transfer between Linux, Windows and Apple computers. TeamViewer is free for personal use. You can use TeamViewer completely free of charge to access your private computers or to help your friends with their computer problems. To buy a license for commercial use, please visit http://www.teamviewer.com </Description>
-        <Archive sha1sum="56ee7329b188fc2421b939990c997a765d76a06a" type="binary">http://download.teamviewer.com/download/version_7x/teamviewer_linux.rpm</Archive>
+        <Archive sha1sum="a141b4cc005fadb6f107ead265bd8fc122ab7908" type="binary">http://download.teamviewer.com/download/teamviewer_linux.rpm</Archive>
         <BuildDependencies>
             <Dependency>rpm2targz</Dependency>
         </BuildDependencies>
@@ -39,6 +39,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2013-10-09</Date>
+            <Version>8.0.20931</Version>
+            <Comment>Version bump</Comment>
+            <Name>Kemal Oktay Aktoğan</Name>
+            <Email>oktayaktogan@hotmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2013-08-03</Date>
             <Version>7.0.9377</Version>
